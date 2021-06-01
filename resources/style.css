@@ -3,7 +3,7 @@
     height:100%;
     padding:0;
     margin:0;
-    font-family: 'Bahnschrift';
+    font-family: 'Roboto';
     }
     
     #container {
@@ -12,6 +12,7 @@
     background-image: url('bg.png');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     }
     span#heading{
     float:center;
@@ -57,14 +58,14 @@
     }
     #generated {
     display:block;
-    height:10%;
+    height:6%;
     margin:0 auto;
     text-align:center;
-    font-size:50px;
-    width:80%;
+    font-size:36px;
+    width:60%;
     background:white;
     margin-top:200px;
-    position:static;
+    position:relative;
     color:#e4e4e4;
     opacity:0.8;
     }
