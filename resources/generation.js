@@ -60,7 +60,7 @@ var secondWord = [
 "ENCHANTER","TRINKET","CONTROL WARD","SIGHTSTONE","ARDENT","ARDENT BABY","STAFF","UCHIHA","SASUKE","KIRIN","","","BOT","VOMIT","PERMABAN", "ESLAVE", "MILLIONAIRE", "MONKEYS", "XANAX", "GANG",
 "ENJOYER", "ABUSER", "HACK", "300CSPM", "YEP", "SUICIDE", "POG", "MACHINE", "INT ACC", "THEORY", "SMURF"];
 function generateName() {
-	document.getElementById("generated").style.color = "black";
+	document.getElementById("generated").style.color = "#141414c9";
 	var fWnum = Math.floor(Math.random() * firstWord.length);
 	var sWnum = Math.floor(Math.random() * secondWord.length);
 	var named = firstWord[fWnum] + " " + secondWord[sWnum];

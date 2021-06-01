@@ -58,16 +58,15 @@
     }
     #generated {
     display:block;
-    height:6%;
+    writing-mode: horizontal-tb;
+    block-size: auto;
     margin:0 auto;
     text-align:center;
     font-size:36px;
-    width:60%;
-    background:white;
+    background:rgba(247, 161, 255, 0.445);
     margin-top:200px;
     position:relative;
-    color:#e4e4e4;
-    opacity:0.8;
+    color:#141414c9;
     }
     button {
     float:center;
@@ -78,13 +77,12 @@
     margin:20px auto 20px auto;
     padding:10px 25px;
     font-size:48px;
-    background:#e4e4e4;
+    background:rgba(247, 161, 255, 0.445);
     border:none;
-    opacity:0.7;
     
     }
     button:hover {
-    background:#d4d4d4;
+    background:rgba(245, 129, 255, 0.445);
     }
     button:focus {
     outline:none;
